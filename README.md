@@ -14,11 +14,12 @@ How to Use
 ----------
 
 The css styles:
-	#CSS
+
 	.TOSBombs_layer { position:absolute; top:0; left:0; height:100%; width:100%; z-index:10000; visibility:hidden;}
 	.TOSBomb { display:inline; width:16px; height:16px; background-image:url('tosbomb16.gif'); float:left; margin-top:25%;}
 
 Document's body crash:
+
 	#JS
 	var crasher = new TOSBombs();
 	crasher.show();
